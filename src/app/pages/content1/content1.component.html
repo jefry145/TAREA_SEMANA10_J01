@@ -1,0 +1,9 @@
+<div class="col px-5 py-5">
+    <form  [formGroup]="formLogin" >
+    <input placeholder="Ingrese el nombre de su tarea"  class="form-control" type="text" [(ngModel)]="tarea" name="tarea" formControlName="msg" (blur)="Enviar()"><br>
+    <textarea placeholder="Ingrese su descripciòn" class="form-control" name="" id="" cols="30" rows="10" [(ngModel)]="contenido" name="contenido" formControlName="msg" (blur)="Enviar()"></textarea>
+<br>
+    <button class="btn btn-outline-warning px-5" type="button" [disabled]="formLogin.invalid">Emviar</button>
+</form>
+</div>
+<!-- (blur)="Enviar()" -->

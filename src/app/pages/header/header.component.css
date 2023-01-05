@@ -1,0 +1,16 @@
+.navbar{
+    background: rgb(241, 241, 241);
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 1px rgb(124, 124, 124);
+    height: 167px;
+}
+p{
+  font-weight: 600;
+  font-size: 35px;
+}
+img{
+    height: 150px;
+    border-radius: 220px;
+    box-shadow: 0px 3px 15px 1px rgb(211, 211, 211);
+    cursor: pointer;
+}

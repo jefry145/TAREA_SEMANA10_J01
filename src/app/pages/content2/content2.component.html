@@ -1,0 +1,17 @@
+<div class="col py-5 px-5">
+<div class="list">
+    <ul>#_Listado de tareas pendientes
+        <li (click)="show=!show" *ngFor="let element of data">
+          {{element.titulo}}
+          <div *ngIf="show" class="contenido">
+          {{element.contenido}}
+          </div>
+        </li>
+      </ul>
+</div>
+</div>
+<div class="col px-5">
+  <button class="btn btn-outline-info" type="button" (click)="guardar()">guardar</button>
+</div>
+
+<!-- <button class="btn btn-outline-danger" type="button" (click)="borrar()">eliminar</button> -->

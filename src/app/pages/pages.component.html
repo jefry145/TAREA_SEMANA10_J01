@@ -1,0 +1,12 @@
+<app-header></app-header>
+<div  class="row font-mono">
+    <div class="col">
+        <app-content1 (Pasardatospadre)="obtenerdatos($event)" ></app-content1>
+    </div>
+    <div class="col">
+        <app-content2 [textohijo2]="pasarDatosHijo" ></app-content2>
+    </div>
+</div>
+<app-footer></app-footer>
+<!-- [texto]="pasarDatosHijo" COMANDO PARA LLAMAR DATOS DE PADRE A HIJO -->
+<!-- (Pasardatospadre)="obtenerdatos($event) " COMANDO PARA LLAMAR DATOS DE HIJO A PADRE-->
